@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(231, 221, 238);
+}
+
+section {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    width: 40%;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(59, 0, 101);
+}
+
+.title {
+    font-size: 24px;
+    align-self: center;
+    color: rgb(59, 0, 101);
+}
+
+.underlign {
+    width: 80px;
+    height: 1px;
+    border: rgb(59, 0, 101) 2px solid;
+    background-color: rgb(59, 0, 101);
+    border-radius: 5px;
+    margin: auto;
+    margin-top: -25px;
+}
+
+.reviews {
+    border-radius: 10px;
+    border: 1px solid rgb(177, 167, 184);
+    box-shadow: 4px 4px 8px rgb(177, 167, 184);
+    background-color: rgb(246, 240, 251);
+    margin-top: 50px;
+    padding: 0 40px 30px 40px;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+    box-shadow: 2px 2px 4px rgb(99, 82, 110);
+}
+
+#author {
+    margin-bottom: 5px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+#job {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.prevBtn, .nextBtn {
+    background: none;
+    border: none;
+    font-size: 18px;
+}
+
+button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.randomBtn {
+    margin-top: 15px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 1px 1px 4px rgb(59, 0, 101);
+    font-size:15px;
+}
